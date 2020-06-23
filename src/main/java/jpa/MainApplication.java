@@ -38,9 +38,6 @@ public class MainApplication implements CommandLineRunner {
     @Autowired
     EmployeeRepository employeeRepository; //Embeddable and Embedded test
 
-    @Autowired
-    AccountProvidersRepository accountProvidersRepository;
-
     public static void main(String[] args) {
         SpringApplication.run(MainApplication.class,args);
     }
