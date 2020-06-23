@@ -135,7 +135,7 @@ public class MainApplication implements CommandLineRunner {
         EmployeeIdentity guruji = new EmployeeIdentity();
         guruji.setCompanyId("XYZ");
         guruji.setEmployeeId("abc123");
-        dipanshu.setEmployeeIdentity(guruji);
+        ritesh.setEmployeeIdentity(guruji);
         employeeList.add(employee);
         employeeList.add(ritesh);
         employeeRepository.saveAll(employeeList);
